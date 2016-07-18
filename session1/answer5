@@ -1,0 +1,17 @@
+git reset --soft HEAD~1
+
+git st
+
+git diff --stage
+
+git commit --amend --no-edit
+
+-----------------------------
+
+git reset --soft HEAD~2
+
+git lg -2
+
+git st
+
+git commit -m "new test"

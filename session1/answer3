@@ -1,0 +1,18 @@
+git reset --soft HEAD~1
+
+git reset traings/index.html traings/js-total.js
+
+git lg -2
+
+git diff --staged
+
+git show --name-only ORIG_HEAD
+
+git commit -C ORIG_HEAD
+
+
+----------------
+
+git reset HEAD^ traings/index.html traings/js-total.js
+
+git commit --amend --no-edit

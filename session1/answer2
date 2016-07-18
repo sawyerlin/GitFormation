@@ -1,0 +1,25 @@
+git reset --soft HEAD~1
+
+git lg -4
+
+git reflog -2
+
+git reset --merge @{1}
+
+------------
+
+git reset HEAD^
+
+git reset --merge @{1}
+
+------------
+
+git reset trainings/index.html trainigs/git-total.html HEAD~1
+
+***********
+
+git reset HEAD~1
+
+git show --name-only ORIG_HEAD
+
+git commit -a -C ORIG_HEAD

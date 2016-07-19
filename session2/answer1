@@ -1,0 +1,23 @@
+git branch temp
+
+git co temp
+
+git lg --all -10
+
+git co css/theming
+
+git merge --ff temp
+
+--------------
+
+git checkout -B css/theming
+
+--------------
+
+git checkout css/theming 
+
+--------------
+
+git rebase HEAD css/theming
+
+git lg -5

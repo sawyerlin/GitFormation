@@ -1,0 +1,59 @@
+================ my solution ================
+git rebase 9302ba5 HEAD -i
+
+##################### config rebase interactive #######################
+x echo rename
+
+r e82e729 Licence (MIT)  
+
+x echo commit amend
+
+s 3a46bcd Moved to CC BY-NC-SA 3.0 license
+
+x echo remove two commits
+
+d 78cb8c5 NO INCOMING LINKS!
+
+d 44b8ae5 Revert "NO INCOMING LINKS!"
+
+x echo just commit the others                                                                        
+
+p 924c94d Centered footer
+
+p 18b8a3c Link to GitHub repo
+
+p 8a886bb Removed obsolete steps info
+#######################################################################
+
+git branch -D master 
+
+git branch master
+
+git checkout master
+
+git rebase master countdowns
+
+git rebase —con
+
+git checkout master
+
+git merge -ff countdowns
+
+git rebase --onto master 62020ab experiment
+
+git checkout master
+
+git merge --ff experiment
+
+git lg —-all
+
+================ other solutions ================
+
+git rebase -i :/Initial
+
+.... same
+
+git rebase --onto master expriment~3 experiment
+git rebase --onto master experiment -i (remove first two commits)
+
+git rebase expirement master

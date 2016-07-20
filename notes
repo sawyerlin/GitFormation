@@ -2,4 +2,17 @@ https://inch-ci.org/
 
 https://codecov.io/
 
+https://www.review.ninja/
 
+https://reviewable.io/
+
+https://www.gitcolony.com/
+
+hooks could be used to :
+
+ 1. test script
+ 2. update database
+ 3. deploy on local
+ 4. ...
+
+maxime@delicious-insights.com
